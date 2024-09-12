@@ -1,0 +1,260 @@
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('./fonts/BlenderPro-Medium.eot');
+  src: local('Blender Pro Medium'), local('BlenderPro-Medium'),
+      url('./fonts/BlenderPro-Medium.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/BlenderPro-Medium.woff2') format('woff2'),
+      url('./fonts/BlenderPro-Medium.woff') format('woff'),
+      url('./fonts/BlenderPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('./fonts/BlenderPro-ThinItalic.eot');
+  src: local('Blender Pro Thin Italic'), local('BlenderPro-ThinItalic'),
+      url('./fonts/BlenderPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/BlenderPro-ThinItalic.woff2') format('woff2'),
+      url('./fonts/BlenderPro-ThinItalic.woff') format('woff'),
+      url('./fonts/BlenderPro-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('./fonts/BlenderPro-Heavy.eot');
+  src: local('Blender Pro Heavy'), local('BlenderPro-Heavy'),
+      url('./fonts/BlenderPro-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/BlenderPro-Heavy.woff2') format('woff2'),
+      url('./fonts/BlenderPro-Heavy.woff') format('woff'),
+      url('./fonts/BlenderPro-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Blender Pro Book';
+  src: url('./fonts/BlenderPro-BookItalic.eot');
+  src: local('Blender Pro Book Italic'), local('BlenderPro-BookItalic'),
+      url('./fonts/BlenderPro-BookItalic.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/BlenderPro-BookItalic.woff2') format('woff2'),
+      url('./fonts/BlenderPro-BookItalic.woff') format('woff'),
+      url('./fonts/BlenderPro-BookItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Blender Pro Book';
+  src: url('./fonts/BlenderPro-Book.eot');
+  src: local('Blender Pro Book'), local('BlenderPro-Book'),
+      url('./fonts/BlenderPro-Book.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/BlenderPro-Book.woff2') format('woff2'),
+      url('./fonts/BlenderPro-Book.woff') format('woff'),
+      url('./fonts/BlenderPro-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('./fonts/BlenderPro-Bold.eot');
+  src: local('Blender Pro Bold'), local('BlenderPro-Bold'),
+      url('./fonts/BlenderPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/BlenderPro-Bold.woff2') format('woff2'),
+      url('./fonts/BlenderPro-Bold.woff') format('woff'),
+      url('./fonts/BlenderPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('./fonts/BlenderPro-Thin.eot');
+  src: local('Blender Pro Thin'), local('BlenderPro-Thin'),
+      url('./fonts/BlenderPro-Thin.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/BlenderPro-Thin.woff2') format('woff2'),
+      url('./fonts/BlenderPro-Thin.woff') format('woff'),
+      url('./fonts/BlenderPro-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('./fonts/BlenderPro-MediumItalic.eot');
+  src: local('Blender Pro Medium Italic'), local('BlenderPro-MediumItalic'),
+      url('./fonts/BlenderPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/BlenderPro-MediumItalic.woff2') format('woff2'),
+      url('./fonts/BlenderPro-MediumItalic.woff') format('woff'),
+      url('./fonts/BlenderPro-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('./fonts/BlenderPro-BoldItalic.eot');
+  src: local('Blender Pro Bold Italic'), local('BlenderPro-BoldItalic'),
+      url('./fonts/BlenderPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/BlenderPro-BoldItalic.woff2') format('woff2'),
+      url('./fonts/BlenderPro-BoldItalic.woff') format('woff'),
+      url('./fonts/BlenderPro-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+:root{
+  /*********************** Web site colors ********************/
+  /* Brands colors */
+  --color-brand: hsl(57, 98%, 51%);
+  --color-brand-alt: hsl(184, 100%, 50%);
+  --color-brand-alt-600: hsl(185, 100%, 34%);
+  /* Neutrals colors*/
+  --dark: hsl(240, 3%, 8%);
+  --dark-144: hsl(240, 14%, 4%);
+  --dark-305: hsl(240, 30%, 5%);
+  --dark-325: hsl(240, 3%, 25%);
+  --dark-340: hsl(240, 3%, 40%);
+  --white: hsl(0, 0%, 98%);
+  --white-79: hsl(0, 0%, 79%);
+  --white-162: hsl(0, 1%, 62%);
+  /* Supporting colors */
+  --success: hsl(112, 63%, 52%);
+  --danger: hsl(11, 95%, 47%);
+
+  /* Fonts */
+  --ff: 'Blender Pro';
+  --h1: bold clamp(2rem, 1.3043rem + 3.4783vw, 4rem)/1.2 var(--ff);
+  --h2: bold clamp(1.75rem, 1.5761rem + 0.8696vw, 2.25rem)/1.2 var(--ff);
+  --h3: bold clamp(1.25rem, 1.163rem + 0.4348vw, 1.5rem)/1.2 var(--ff);
+  --links: bold 18px/18px var(--ff);
+  --p: var(--step-0)/1.6 var(--ff);
+  --subtext: 12px/20px var(--ff);
+  /* Steps */
+  --step--3: clamp(0.5064rem, 0.4821rem + 0.1211vw, 0.576rem);
+  --step--2: clamp(0.6076rem, 0.5686rem + 0.1954vw, 0.72rem);
+  --step--1: clamp(0.7292rem, 0.6697rem + 0.2971vw, 0.9rem);
+  --step-0: clamp(0.875rem, 0.788rem + 0.4348vw, 1.125rem);
+  --step-1: clamp(1.05rem, 0.9261rem + 0.6196vw, 1.4063rem);
+  --step-2: clamp(1.26rem, 1.0868rem + 0.8658vw, 1.7578rem);
+  --step-3: clamp(1.512rem, 1.2736rem + 1.1918vw, 2.1973rem);
+  --step-4: clamp(1.8144rem, 1.4902rem + 1.6212vw, 2.7466rem);
+  --step-5: clamp(2.1773rem, 1.7404rem + 2.1843vw, 3.4332rem);
+  --step-6: clamp(2.6127rem, 2.0288rem + 2.9196vw, 4.2915rem);
+  /* Spacing */
+  --space-xxs: .25rem;
+  --space-xs: .5rem;
+  --space-s: .75rem;
+  --space-m: 1rem;
+  --space-l: 1.25rem;
+  --space-xl: 1.75rem;
+  --space-xxl: 2.5rem;
+  /* Utilities */
+  --transition: 0.3s ease-in-out;
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body{
+  font-size: var(--p);
+  font-family: var(--ff);
+  min-height: 100vh;
+  background-color: var(--dark);
+  color: var(--white);
+}
+img, picture, svg, video{
+  display: block;
+  max-width: 100%;
+}
+input, textarea, button, select{
+  font: inherit;
+}
+h1{
+  font: var(--h1);
+  margin-block: var(--space-m);
+}
+h2{
+  font: var(--h2);
+  margin-block: var(--space-s);
+}
+h3{
+  font: var(--h3);
+  margin-block: var(--space-xs);  
+}
+:is(h1, h2, h3){
+  text-wrap: balance;
+}
+p{
+  font: var(--p);
+  margin-bottom: var(--space-xs);
+  text-wrap: pretty;
+}
+/* Utilidades */
+.links{
+  font: var(--links);
+  margin-top: 8px;
+}
+.subtext{
+  font: var(--subtext);
+  margin-top: -8px;
+}
+.contenedor{
+  width: min(90%, 120rem);
+  margin-inline: auto;
+}
+.grid{
+  display: grid;
+  gap: var(--space-m);
+  grid-template-columns: repeat(auto-fit,minmax(min(400px, 100%), 1fr));
+}
+.btn{
+  min-height: 40px;
+  padding: 10px 15px;
+  border: none;
+  background-color: transparent;
+  min-width: 200px;
+  font-size: var(--step-1);
+  font-weight: 600;
+}
+.btn-primary{
+  background-color: var(--color-brand-alt);
+  color: var(--dark-144);
+  transition: background-color var(--transition);
+  &:hover{
+    background-color: var(--color-brand-alt-600);
+  }
+}
+/* Header styles */
+.header{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(min(400px, 100%), 1fr));
+  place-items: center;
+  min-height: 100dvh;
+}
+.header__info{
+  color: var(--white);
+}
+.header__title{
+  text-transform: uppercase;
+  & span{
+    color: var(--color-brand);
+  }
+}
+.header__text{
+  color: var(--white-79);
+  margin-bottom: var(--space-xl);
+  font-size: var(--step-1);
+}
+
