@@ -7,6 +7,9 @@ function App() {
   return (
     <>
       <Header/>
+      <main className='section container' id='nosotros'>
+        <h1>Nosotros 2.13</h1>
+      </main>
     </>
   )
 }

@@ -158,6 +158,7 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -201,6 +202,14 @@ p{
   margin-bottom: var(--space-xs);
   text-wrap: pretty;
 }
+ul[class]{
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+ul:not([class]){
+  font-size: 1rem;
+}
 /* Utilidades */
 .links{
   font: var(--links);
@@ -210,7 +219,7 @@ p{
   font: var(--subtext);
   margin-top: -8px;
 }
-.contenedor{
+.container{
   width: min(90%, 120rem);
   margin-inline: auto;
 }
@@ -221,7 +230,7 @@ p{
 }
 .btn{
   min-height: 40px;
-  padding: 10px 15px;
+  padding: var(--space-s) var(--space-m);
   border: none;
   background-color: transparent;
   min-width: 200px;
@@ -257,4 +266,32 @@ p{
   margin-bottom: var(--space-xl);
   font-size: var(--step-1);
 }
-
+/* Navbar styles */
+.nav-bar{
+  display: flex;
+  column-gap: var(--space-xl);
+  align-items: center;
+  background-color: var(--dark-144);
+  padding-block: var(--space-xs);
+  padding-inline: var(--space-xl);
+}
+.nav-bar--top{
+  position: fixed;
+  top: var(--space-xxl);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100vw;
+}
+.nav-bar__ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-m);
+  & a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: var(--step-0);
+    &:hover{
+      color: var(--color-brand);
+    }
+  }
+}
